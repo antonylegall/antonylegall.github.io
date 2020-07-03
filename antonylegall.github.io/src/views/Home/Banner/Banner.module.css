@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,400italic,600italic|Roboto+Slab:400,700");
+
+.Title {
+    font-size: 5em;
+    color: #3d4449;
+    font-family: "Roboto Slab", serif;
+    font-weight: 700;
+    line-height: 1.5;
+    margin: 0 0 0 0;
+}
+
+.p {
+    font-family: "Roboto Slab", serif;
+    font-size: 1em;
+    font-weight: 400;
+    letter-spacing: 0.075em;
+    margin-top: 0.5em;
+    text-transform: uppercase;
+    color: #7f888f;
+}
+
+.MainImage{
+    width: 847px;
+    height: 545px;
+    border-radius: 0.375em;
+    alt:"";
+}
+
+.Container{
+    flex-grow:1;
+    padding:4em;
+}

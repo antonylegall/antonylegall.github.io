@@ -1,9 +1,9 @@
 import React from 'react';
 import {Divider} from '@material-ui/core';
-import styles from './SideBar.css';
+import styles from './SideBar.module.css';
 
 const SideBar = (props) => (
-    <div className={props.open ? styles.SideBar.Open : styles.SideBar.Closed}>
+    <div className={props.open ? styles.SideBar.Open : styles.SideBar}>
         <h2 className={styles.Heading}>Menu</h2>
         <p className={styles.LinkText}>Home</p>
         <Divider variant="middle"/>

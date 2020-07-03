@@ -1,14 +1,14 @@
 import React from 'react';
 
-import styles from './Layout.css'
-import SideBar from './SideBar/SideBar';
-import Aux from '../../hoc/Hoc';
+import styles from './Layout.module.css'
+import SideBar from '../SideBar/SideBar';
+import Hoc from '../../hoc/Hoc';
 
 import { Toolbar, IconButton } from '@material-ui/core';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import MenuIcon from '@material-ui/icons/Menu';
-import MediumIcon from './mediumrecol.png';
+import MediumIcon from '../../assets/mediumIcon.png';
 
 const Layout = () => {
     const [open, setOpen] = React.useState(false);
@@ -17,7 +17,7 @@ const Layout = () => {
     };
 
     return(
-        <Aux>
+        <Hoc>
             <Toolbar className={styles.Toolbar}>
                 <IconButton
                     className={open ? styles.MenuButtonOpen : styles.MenuButtonClosed}
@@ -30,16 +30,16 @@ const Layout = () => {
                     <IconButton href="https://www.linkedin.com/in/antonylegall/">
                         <LinkedInIcon style={{ fontSize: 45 }} />
                     </IconButton>
-                    <IconButton >
+                    <IconButton href="https://github.com/antonylegall">
                         <GitHubIcon style={{ fontSize: 45 }}/>
                     </IconButton>
-                    <IconButton>
-                        <img src={MediumIcon} height="45" width="45" color="inherit"/>
+                    <IconButton href="https://medium.com/@antonylegall">
+                        <img src={MediumIcon} height="45" width="45" color="inherit" alt="Medium Icon"/>
                     </IconButton>
                 </div>
             </Toolbar>
             <SideBar open={open}/>
-      </Aux>
+      </Hoc>
     );
 };
 
