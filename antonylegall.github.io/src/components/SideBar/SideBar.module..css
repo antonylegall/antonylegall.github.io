@@ -1,0 +1,46 @@
+.SideBar {
+    position: fixed;
+    width: 380px;
+    height: 100%;
+    max-width: 70%;
+    left: 0;
+    top: 0;
+    z-index: 200;
+    background-color: #f5f6f7;
+    padding: 32px 16px;
+    box-sizing: border-box;
+    transition: transform 0.6s ease-out;
+}
+
+.SideBar.Open {
+    transform: translateX(0);
+}
+
+.SideBar.Closed {
+    transform: translateX(-100%);
+}
+
+.Heading{
+    color: #3d4449;
+    font-family: "Roboto Slab", serif;
+    font-weight: 700;
+    line-height: 1.5;
+    border-bottom: solid 3px #4a98ff;
+    display: inline-block;
+    margin: 0 0 2em 0;
+    padding: 0 0.75em 0.5em 0;
+    font-size: 1.3888888889em;
+}
+
+.LinkText{
+    font-family: "Roboto Slab", serif;
+    border-bottom: 0;
+    color: inherit;
+    cursor: pointer;
+    display: block;
+    font-size: 0.9em;
+    padding: 0 0.75em 0.5em 0;
+    transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
+    letter-spacing: 0.075em;
+    text-transform: uppercase;
+}

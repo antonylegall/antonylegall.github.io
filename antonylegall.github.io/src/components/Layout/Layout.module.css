@@ -1,0 +1,21 @@
+.Toolbar {
+    height: 100px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    border-bottom: solid 3px #4a98ff;
+    margin-left:4em;
+    margin-right:4em;
+}
+
+.MenuButtonOpen {
+    transition: transform 0.6s ease-out;
+    transform: translateX(380px);
+}
+
+.MenuButtonClosed {
+    transition: transform 0.6s ease-out;
+    transform: translateX(0);
+    margin-left:0;
+}
