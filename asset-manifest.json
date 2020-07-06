@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/antonylegall.github.io/static/css/main.361b125d.chunk.css",
+    "main.js": "/antonylegall.github.io/static/js/main.c022f1ba.chunk.js",
+    "main.js.map": "/antonylegall.github.io/static/js/main.c022f1ba.chunk.js.map",
+    "runtime-main.js": "/antonylegall.github.io/static/js/runtime-main.b66489c3.js",
+    "runtime-main.js.map": "/antonylegall.github.io/static/js/runtime-main.b66489c3.js.map",
+    "static/js/2.06fb34b4.chunk.js": "/antonylegall.github.io/static/js/2.06fb34b4.chunk.js",
+    "static/js/2.06fb34b4.chunk.js.map": "/antonylegall.github.io/static/js/2.06fb34b4.chunk.js.map",
+    "index.html": "/antonylegall.github.io/index.html",
+    "precache-manifest.68d198fd491f0e7a69feba6fcd5ff64a.js": "/antonylegall.github.io/precache-manifest.68d198fd491f0e7a69feba6fcd5ff64a.js",
+    "service-worker.js": "/antonylegall.github.io/service-worker.js",
+    "static/css/main.361b125d.chunk.css.map": "/antonylegall.github.io/static/css/main.361b125d.chunk.css.map",
+    "static/js/2.06fb34b4.chunk.js.LICENSE.txt": "/antonylegall.github.io/static/js/2.06fb34b4.chunk.js.LICENSE.txt",
+    "static/media/mountaineer.jpg": "/antonylegall.github.io/static/media/mountaineer.b78def88.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b66489c3.js",
+    "static/js/2.06fb34b4.chunk.js",
+    "static/css/main.361b125d.chunk.css",
+    "static/js/main.c022f1ba.chunk.js"
+  ]
+}
