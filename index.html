@@ -9,216 +9,624 @@
 </head>
 <body>
 <tw-story><noscript><tw-noscript>JavaScript needs to be enabled to play The Odyssey: Choose Your Own Adventure.</tw-noscript></noscript></tw-story>
-<tw-storydata name="The Odyssey: Choose Your Own Adventure" startnode="9" creator="Twine" creator-version="2.5.1" format="Harlowe" format-version="3.3.3" ifid="34BC9F7E-7A74-4F25-B3A3-8D8F4D329DAD" options="" tags="" zoom="1" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"></style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="Odysseus wakes" tags="" position="1075,500" size="100,100">(set: $morale to 5)
+<tw-storydata name="The Odyssey: Choose Your Own Adventure" startnode="4" creator="Twine" creator-version="2.5.1" format="Harlowe" format-version="3.3.3" ifid="34BC9F7E-7A74-4F25-B3A3-8D8F4D329DAD" options="" tags="" zoom="1" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">img {
+   max-width: 100%;
+   max-height: 650px;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+tw-story[tags~="cabin"] {
+ background-image:url("images/cabin.jpg");
+ background-size: 100% auto;
+ background-color: rgba(0,0,0, 0.8);
+ background-blend-mode: darken;
+ background-repeat: repeat-y;
+}
+
+tw-story[tags~="hills"] {
+ background-image:url("images/hills.jpg");
+ background-size: 100% auto;
+ background-color: rgba(0,0,0, 0.6);
+ background-blend-mode: darken;
+ background-repeat: repeat-y;
+}
+
+tw-story[tags~="camp"] {
+ background-image:url("images/camp.jpg");
+ background-size: 100% auto;
+ background-color: rgba(0,0,0, 0.65);
+ background-blend-mode: darken;
+ background-repeat: repeat-y;
+}
+
+tw-story[tags~="cave"] {
+ background-image:url("images/cave internal.jpg");
+ background-size: 100% auto;
+ background-color: rgba(0,0,0, 0.7);
+ background-blend-mode: darken;
+ background-repeat: repeat-y;
+}
+
+tw-story[tags~="crevice"] {
+ background-image:url("images/crevice.jpg");
+ background-size: 100% auto;
+ background-color: rgba(0,0,0, 0.5);
+ background-blend-mode: darken;
+ background-repeat: repeat-y;
+}
+
+tw-story[tags~="twilight"] {
+ background-image:url("images/twilight.jpg");
+ background-size: 100% auto;
+ background-color: rgba(0,0,0, 0.5);
+ background-blend-mode: darken;
+ background-repeat: repeat-y;
+}
+
+@font-face {
+  font-family: "main";
+  src: url("/fonts/Via Appia.ttf") format('truetype');
+}
+tw-passage {
+ font-family: main;
+}
+
+
+
+@font-face {
+  font-family: "Heading";
+  src: url("/fonts/Via Appia.ttf");
+}
+h2 {
+  font-family: Heading;
+}</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-tag name="camp" color="green"></tw-tag><tw-tag name="cave" color="purple"></tw-tag><tw-tag name="crevice" color="red"></tw-tag><tw-tag name="hills" color="yellow"></tw-tag><tw-tag name="cabin" color="purple"></tw-tag><tw-tag name="twilight" color="orange"></tw-tag><tw-passagedata pid="1" name="Odysseus conversation with Aegeus" tags="cabin" position="900,500" size="100,100">(set: $morale to 5)
 
 &quot;Captain&quot;
-&quot;*Pssst* Captain&quot;
-Ithicas sprawling sun baked hills begin to fade into faint whispers. . .  
+
+&quot;*Pssst* . . . Captain&quot;
+
+Ithicas sun baked hills begin to fade into blurry lines. . .  
+
 &quot;Odysseus&quot;
-The cracks in the worn lumber of the cabin reveal dawns rosey fingers. Another dream of home.
-&quot;I would not wake you if it weren&#39;t urgent Captain, Crowleys spotted land, a small island appeared broadside an hour ago. From his report it seems abandoned, no fields, homesteads or townships. We&#39;re about to pass within a few hundred metres.&quot;
 
-[[&quot;After the lotus eaters, we ought to be weary of making many more stops, how are our supplies?&quot;]]
-[[&quot;Land!? Aegeus you blasted fool, why didn&#39;t you wake me sooner. We must make way! We&#39;ve more conquering to do, the fruits of this foreign land are not going to loot themselves&quot;]]
-[[&quot;Another dream of home Aegeus, there were moments during the war where I thought I&#39;d never see it again, now I see nothing else when I close my eyes.&quot;]]
-</tw-passagedata><tw-passagedata pid="2" name="&quot;After the lotus eaters, we ought to be weary of making many more stops, how are our supplies?&quot;" tags="" position="950,625" size="100,100">&quot;We&#39;ve enough provisions to last a month but I would advise prudence Odysseus, after that storm blew us off course I&#39;ve cause to think the Gods are against us, only Zeus could conjure up such mighty winds.&quot;
+Odysseus jolted awake. The cracks in the cabins worn lumber revealed dawns rosey fingers shining through, another dream of home.
 
-&quot;We should have restrained ourselves in victory Aegeus, the Trojans fought bravely and deserved better, this does not bode well.&quot;
+&quot;I would not wake you if it weren&#39;t urgent Odysseus, we&#39;ve spotted land ahead, it appeared port side an hour ago. Reports say it is abandoned, no fields, homesteads or townships. We&#39;re about to pass close by.&quot;
 
-[[&quot;Prepare the men to disembark.&quot;]]</tw-passagedata><tw-passagedata pid="3" name="&quot;Prepare the men to disembark.&quot;" tags="" position="1075,775" size="100,100">On deck, men heaved and iron scraped against iron as the scouting party prepared themselves for the journey ahead. The adriatic sea was flat underneath the rhythmic pulling of the oars which filled the air with salt and foam, not a cloud was in sight as the sun made its steady ascent.
+[[Judicious: &quot;After the island of the lotus eaters, we ought to be weary of making many more stops, how are our supplies?&quot;|Judicious]]
 
-Odysseus cast his eyes across the verdant greens and greys of the land ahead, a long flat plain gently gave way to endless rolling hills as far as the eye could see with nought but a few thickets of trees to break the curving lines. After all the bad luck and ill omens of the past few days this appeared a blessing.
+[[Intimidate: &quot;Land!? Aegeus you blasted fool, why didn&#39;t you wake me sooner. We must make way! The fruits of this foreign land are not going to harvest themselves&quot;|Intimidate]]
+
+[[Reflective: &quot;Another dream of home Aegeus, there were moments during the war where I thought I&#39;d never see it again, now I see nothing else when I close my eyes.&quot;|Reflective]]
+</tw-passagedata><tw-passagedata pid="2" name="&quot;Prepare the men to disembark.&quot;" tags="" position="900,900" size="100,100">&lt;img src=&quot;images/boat.jpg&quot;/&gt;
+On deck, men heaved and iron scraped against iron as the scouting party prepared themselves for the journey ahead. The Mediterranean Sea was flat underneath the rhythmic motion of the oars which filled the air with salt and foam, not a cloud was in sight as the sun made its steady ascent.
+
+Odysseus cast his eyes across the greens and browns of the land ahead, a long flat plain gently gave way to endless rolling hills as far as the eye could see with little but a few thickets of trees to break the curving lines. After all the bad luck and ill omens of the past few days this appeared a blessing.
 
 Aegeus approached: &quot;The men are ready, I have chosen the finest scouts to accompany us in-land sire. We will not want for more ferocious fighters or sure-footed path finders.&quot;
-&quot;And the rest?&quot;
-&quot;They will mind the boat and be ready to assist should they hear the blasts of our battle horns.&quot;
-&quot;Very good Aegeus, assemble assemble them.&quot;
 
-With a shout twelve battle scarred men assembled and stood at attention. Odysseus eyed them each down from head to toe.
+&quot;And the rest?&quot; Odysseus said.
 
-&quot;So this is what I&#39;ve got to work with? You all look like you&#39;ve aged fifty years, were the Trojans really that difficult to deal with?&quot; Odysseus said sarcastically.
-A chuckle passed through the ranks.
-&quot;Judging by your beard sire it appears you snuck off to fight four wars for our one.&quot; Bakchos jested.
-&quot;And you thought command was all riches and women Bakchos, glad to have you with us today, your sense of humor will come in handy should we need to have ourselves banished from these lands for good.&quot;
+&quot;They will mind the boat and be ready to venture in-land should they hear the blasts of our battle horns.&quot;
 
-The back and forth continued until Odysseus put the men at ease, within minutes the ship thudded against the hard coastal sand sending a shockwave through the frame.
+&quot;Very good Aegeus, assemble them.&quot;
 
-[[&quot;Here we are, men with me.&quot;]]</tw-passagedata><tw-passagedata pid="4" name="&quot;Land!? Aegeus you blasted fool, why didn&#39;t you wake me sooner. We must make way! We&#39;ve more conquering to do, the fruits of this foreign land are not going to loot themselves&quot;" tags="" position="1075,625" size="100,100">&quot;My apologies sire, I thought you would want more rest, the men say you are starting to come across unhinged, they say you are losing your temperance.&quot;
-&quot;Who says?&quot;
-&quot;I am not at liberty to disclose sire, you know th-&quot;
-&quot;I didn&#39;t appoint you as my second in charge to report back groundless rumors to me Aegeus,&quot; Odysseus barked
+With a shout twelve battle scarred men assembled and stood at attention. Odysseus eyed each man down from head to toe, looking for signs of weakness. The men stood firm yet he could not trust that they were all equipped for the journey, any weak links could break the entire chain.
 
-[[&quot;Prepare the men to disembark.&quot;]]</tw-passagedata><tw-passagedata pid="5" name="&quot;Here we are, men with me.&quot;" tags="" position="1075,900" size="100,100">&quot;But sire.&quot; Bakchos protested, &quot;shall we not bring a cask of the black wine with us for the days rest. Surely the men will require something to drink when the sun reaches its zenith.&quot;
+[[Friendly: Jest with the men|Friendly]]
 
-Odysseus turned to eye the cask, it looked heavy, a compromise would have to be made in the baggage train to keep it light enough for the unknown terrain ahead.
+[[Interrogate: Stare in silence|Interrogate]]
+</tw-passagedata><tw-passagedata pid="3" name="Return to cabin" tags="cabin" position="900,1500" size="100,100">(set: $amulet to &quot;true&quot;)
 
-[[&quot;You&#39;re right Bakchos, we&#39;ll take the wine but it will come at a cost, it seems clear you all would rather be drunk then entertained so we&#39;ll leave the flutes behind, they can heardly be heard over Bakchos&#39;s blabbering anyway&quot;]]
+Odysseus rummaged anxiously through his drawers. &quot;Where is it?&quot; he whispered, &quot;It cannot have gone far, aha!&quot; Odysseus gripped the chain firmly.
 
-[[&quot;The cask weighs heavy Bakchos and when Troy fell, the rest of you men had enough to drink to last a lifetime. Hold your tongue in future, you think the man that single handedly bought down Troy needs input from a bottom feeder like you?&quot;]]
+As he raised the amulet before his eyes its dark center sent shards of light swirling outwards, illuminating the dimness of the cabin, Odysseus stared, transfixed by its dark radiance.
 
-[[&quot;The wine will stay aboard the ship Bakchos, but you have reminded me of another item I cannot go without, at ease men, I need to return to my quarters.&quot;]]</tw-passagedata><tw-passagedata pid="6" name="&quot;Another dream of home Aegeus, there were moments during the war where I thought I&#39;d never see it again, now I see nothing else when I close my eyes.&quot;" tags="" position="1200,625" size="100,100">&quot;Greece is never far from my mind either Captain. How I long to lay my eyes upon it again, to hold my wife and wrestle with my sons, time will tell if they still recognise their father . . . much has changed in ten years Odysseus, I can see it in your eyes and God knows the dreams of war still haunt me when I lay down to rest.&quot;
-&quot;The men who fell beside us will never be forgotten Aegeus, they fought and died bravely, I&#39;ve no-&quot;
-&quot;Fought and died bravely for what? For some kings glory? So he could recover his traitorous wife? We entered battle blinded by the promise of glory brother and what did we get in return?&quot;
+Above all else, this was his prized possession from the Temples of Troy. They discovered the relic deep in in the crypt of Troys holiest temple. First he had been content to let one of his foot soldiers take the prize, but that night in his bed he felt the insatiable need to look upon it one more time. 
 
-Rising up from his bed Odysseus placed his hand on Aegeus&#39;s shoulder.
+The soldier put up a fight to protect it as if possessed but Odysseus would not take no for an answer, and things turned bloody. A state of blindness overcame Odysseus and when he came back to his senses, his blade was covered in blood and the man lay dead. Odysseus arranged his corpse as if it was a suicide and hid the signs of struggle.
 
-&quot;Keep your head Aegeus, it won&#39;t be long before we&#39;re home, I cannot have you expressing these opinions around the men.&quot;
-&quot;Of course brother, our journey will soon come to an end.&quot;
-
-[[&quot;Prepare the men to disembark.&quot;]]</tw-passagedata><tw-passagedata pid="7" name="&quot;The wine will stay aboard the ship Bakchos, but you have reminded me of another item I cannot go without, at ease men, I need to return to my quarters.&quot;" tags="" position="925,1025" size="100,100">(set: $baggage to &quot;AMULET&quot;)
-
-In his quarters Odysseus rummaged through his effects in a frenzy.
-
-&quot;Come on, come on, where is it. Ah, that will do.&quot;
-
-The amulet glistened emerald in the dim light of the cabin as Odysseus stared, transfixed by its radiance. 
-
-Above all else, this  was his prized possession from the Temples of Troy. First he had been content to let one of his lieutenants take the prize but that night in his bed he felt the insatiable need to look upon it one more time. The lieutenant had not given it up easily but when Odysseus inexplicably thrust his dagger through his solar plexus the trinket went bouncing along the stone steps. Odysseus could stare into it for hours, feeling its latent power.
+From that moment the amulets power over him only increased. He couldn&#39;t bear to have it far away and liked to keep it close, feeling its latent power, staring into its depths and hearing its soft whispers.
 
 A call from the waiting party bought him back to reality, he rose from his knee and strolled casually towards the door.
 
-[[Disembark]]</tw-passagedata><tw-passagedata pid="8" name="Disembark" tags="" position="1075,1175" size="100,100"></tw-passagedata><tw-passagedata pid="9" name="Chapter 1: Odysseus Wakes" tags="" position="1075,350" size="100,100">&#39;&#39;Chapter 1: Odysseus wakes.
-&#39;&#39;
-After ten years at war with Troy, Greece finally struck her killing blow. The Trojan walls, true to their reputation proved impenetrable to the Greeks missiles and siege ramps until one night, under the cover of darkness they were suddenly flung open allowing thousands of Greek soldiers to pass through. Odysseus and his men, hiding in the belly of the &quot;gifted&quot; wooden horse had waited for the cover of night to strike. The ensuing sack of the city dismayed Gods and men alike, magnanimity was in short supply.
+[[Next Chapter|Chapter 2: The Garden of Eden]]</tw-passagedata><tw-passagedata pid="4" name="Chapter 1: Odysseus Wakes" tags="" position="900,300" size="100,100">&lt;h3&gt;Chapter 1: Odysseus wakes.&lt;/h3&gt;
+After ten years at war with Troy, Greece finally struck her killing blow.
+&lt;img src=&quot;images/troy.jpg&quot;/&gt;
+The Trojan walls, true to their reputation proved impenetrable to the Greeks missiles and siege ramps until one fateful night. Under the cover of darkness, Odysseus and his men left the belly of the &quot;gifted&quot; horse and did their cunning work, soon after Troys gates were flung open allowing thousands of Greek soldiers to pass through. The ensuing sack of the city dismayed Gods and men alike: no woman, man or child escaped unscathed.
 
-Throughout the years of carnage and bloodshed Odysseus proved himself a capable commander: boldly leading his men into battle, playing the cunning diplomat to convince Achilles to rejoin the fray and exercised his cunning: orchestrating the construction of the wooden horse. Some say he is a hero; the greatest commander to walk the earth, some say a cunning and manipulative rogue and some say an ordinary man, at the right place at the right time.
+Throughout the decade of carnage and bloodshed Odysseus proved himself a capable commander; boldly leading his men into battle, he played the judicious diplomat; swaying the minds of men with his silver tongue and exercised his cunning; orchestrating the construction of the wooden horse.
+
+Some say he is a hero; the greatest commander to walk the earth, some say he&#39;s a liar and a rogue and some say he&#39;s just an ordinary man, at the right place at the right time.
 
 What&#39;s for certain is that war changes a man, but how much and in what way is yet to be seen . . .
 
-[[Begin|Odysseus wakes]]</tw-passagedata><tw-passagedata pid="10" name="&quot;You&#39;re right Bakchos, we&#39;ll take the wine but it will come at a cost, it seems clear you all would rather be drunk then entertained so we&#39;ll leave the flutes behind, they can heardly be heard over Bakchos&#39;s blabbering anyway&quot;" tags="" position="1200,1025" size="100,100">(set: $baggage to &quot;WINE&quot;)
+[[Begin|Odysseus conversation with Aegeus]]</tw-passagedata><tw-passagedata pid="5" name="Chapter 2: The Garden of Eden" tags="hills" position="1500,300" size="100,100">&lt;h3&gt;Chapter 2: The Garden of Eden.&lt;/h3&gt;
 
-Odysseus stood by as each men made their way down the ladder onto the shore ensuring each was sure of his role in the party, on the shore he made sure to lift the heaviest sack onto his back, no true commander would let his men bear the load alone.
+On and on the men walked undisturbed across the expanse of rolling hills, some sang, some joked but most of all they spoke of home. Many had left sons and daughters behind that were mere babes and wondered how they had grown. Some expressed trepdiation to return, fearful of being forgotten by their wives and having to confront a lover or suitor. Others simply remained silent, quietly struggling with the images and memories of the atrocities they had witnessed.
 
-[[Disembark]]
+Hesperos was the youngest of the bunch and was everything one would imagine a Greek warrior to be, shaped by the same hand that carved Achilles &amp; Herakles. His slim stature towered above other men and his youthful skin was a deep bronze from his long days of toil. Having lied about his age he had sailed to Troy at the age of 14 and killed his first man a year later, his face bearing the scar of the mans short sword. Hesperos wore it proudly. Every man on board looked at him as their son, and his charm and good will meant they loved him like one too.
 
-</tw-passagedata><tw-passagedata pid="11" name="&quot;The cask weighs heavy Bakchos and when Troy fell, the rest of you men had enough to drink to last a lifetime. Hold your tongue in future, you think the man that single handedly bought down Troy needs input from a bottom feeder like you?&quot;" tags="" position="1075,1025" size="100,100">(set: $baggage to &quot;FLUTE&quot;)
+Odysseus raised his hand over his eyes and spotted a shady grove of trees.
 
-Bakchos eyes were downcast, the rest of the men stood in stunned silence, fearful to provoke any more of their Commanders wrath. It was clear in their eyes that change was afoot, he hadn&#39;t always been this way.
+[[&quot;Up ahead men, we&#39;ll take our days rest in the shade.&quot;|Resting under the Trees]]</tw-passagedata><tw-passagedata pid="6" name="Resting under the Trees" tags="camp" position="1700,500" size="100,100">The men were quick to discard their hoplite armor and rucksacks as the hot sun beat down on the earth, it wasn&#39;t long before they grew restless and playful.
 
-Without looking back Odysseus took the ladder first and made his way to the shore leaving the rest of the party to bear the baggage.
+It was impossible for Aegeus and Hesperos to pass eachother without the two of them making an effort to cross paths and clash shoulders, this time Hesperos put his weight into it and squared up playfully.
 
-[[Disembark]]</tw-passagedata><tw-passagedata pid="12" name="Chapter 2: The Garden of Eden" tags="" position="1550,350" size="100,100">On and on the men walked across the expanse of rolling hills, they sang, they joked but most of all they spoke of home. Many had left sons and daughters behind that were mere babes and wondered how they had grown. Some expressed trepdiation to return, fearful of being forgotten by their wives and having to confront a lover or suitor. Others simply remained silent in quiet desperation, trying to banish the haunting images of the atrocities they had witnessed, the atrocities they had committed with their own hands.
+&quot;Back for some more old man?&quot; Hesperos said smiling.
 
-Hesperos was the youngest of the bunch. He was everything one would imagine a Greek warrior to be: tall, muscular and bronze from his long days in the sun. Having lied about his age he had sailed to Troy at the age of 14 and killed his first man a year later, his face still bore the scar of the mans short sword. Hesperos wore it proudly. Every man on board looked at him as their son, his goodwill and charm meant they loved him the most.
+&quot;Ah, the folly of youth, I remember when I was young and dumb.&quot;
 
-Odysseus raised his hand over his eyes and spotted some shade ahead.
-
-[[&quot;Over there, we&#39;ll take our days meal under the tree.&quot;]]</tw-passagedata><tw-passagedata pid="13" name="&quot;Over there, we&#39;ll take our days meal under the tree.&quot;" tags="" position="1550,475" size="100,100">Breastplates and rucksacks were lined up as the men raced to relieve themselves of the weight of the armor. The sun was beating the earth, they were definitely somewhere in the Mediterranean.
-
-It was impossible for Aegeus and Hesperos to pass eachother without the two of them making an effort to cross paths and clash shoulders, squaring up playfully
-
-&quot;Back for some more old man?&quot; Hesperos couldn&#39;t hide his smile.
-&quot;Ah, the folly of youth, I remember when I was young and cocky too.&quot; 
-
-Before Aegues had finished his sentence Hesperos lowered his hips and shot forward grabbing his forward leg and slamming his shoulder into Aegeus&#39;s guts. The two went sprawling backwards but in the motion Aegeus had managed to land on top pinning the youth, or so he thought until Hesperos had slid out between his legs and was making his way for his throat.
+Before Aegues had finished his sentence Hesperos lowered his hips and shot forward, grabbing Aegeus&#39;s forward leg and slamming his shoulder into his guts. The two went sprawling backwards into the earth. When the dust and dirt had settled it was Aegeus who had managed to land on top, pinning the youth, or so he thought until Hesperos had slid out between his legs and was making his way for his throat.
 
 &quot;Enough!&quot; Odysseus roared bringing the show to a halt.
-
-(if: $morale &gt; 3)[&quot;Save the fooling around until we know where we are you two. We don&#39;t want to be caught off guard.&quot; ]\
-(else: )[&quot;What insolence is this? I turn my back for five minutes to scout that hill and you all burst into riot like a band of fools. Pull yourselves together, when I say at ease you rest at ease, when I say wrestle you wrestle, understood?&quot;]
-
-Both men nodded.
-
-(if: $baggage is &quot;WINE&quot;)
+(if: $morale is 5)
 [
-&quot;Sire! I&#39;ve carried it on my back all the way, I&#39;ve been smelling it&#39;s sweet odour for hours, how about we open the cask, I can&#39;t be the only man in need of a drink&quot; 
+&quot;Save the fooling around until we know where we are. We don&#39;t want to be caught off guard. Aegeus you can thank me later, the boy had you.&quot;
 
-With a wave of the hand Odysseus gestured towards the cork, and within moments the men had their cups out 
-]\
-(else: ))
-[
-&quot;Aegeus how about a song.&quot; Odysseus said handing him his flute
-&quot;Aye boss, what would you like to hear.&quot;
-&quot;I&#39;ve never been one to fuss, lets hear
-]
+Aegeus threw his arms up in protest. &quot;Had me? I let him go behind for I had a plan for him there let me tell you, and you think he had me? Nonsense.&quot;
 
-[[asdf]]</tw-passagedata><tw-passagedata pid="14" name="asdf" tags="" position="1550,600" size="100,100">Silence overcame the camp as each man basked in the glory of the day in his own way, each listening to the sonorous sounds of the flute carry over the quiet grove.
+Bakchos approached the scene.
 
-Hesperos sat, enchanted by a family of butterflys fluttering together in unison while Aegeus sat removed, writing privately in his journal.
-
-The silence was broken by a hearty belch from Bakchos as he approached the cask for another cup. Odysseus eyed him the whole way.
-
-[[&quot;Any more Bakchos and we won&#39;t be able to tell you from the cask. Although we know which we&#39;d leave behind in a pinch, from now on you go through me when you want free reign over our provisions, Seal it.&quot;]]
-
-[[&quot;Another cup my friend? Let me join you, is there anyone else for another round?&quot;]]
-
-[[&quot;Easy Bakchos, we&#39;ll be back on the trail soon and who knows what lies over these hills.&quot;]]</tw-passagedata><tw-passagedata pid="15" name="&quot;Another cup my friend? Let me join you, is there anyone else for another round?&quot;" tags="" position="1675,725" size="100,100">(set: $drunk to &quot;true&quot;)
-
-Odysseus approached the cask cups in hand, filling each and spilling more than he caught.
-
-[[&quot;Alright one last drink before we go, HESPEROS! Where is Hesperos.&quot;|Chaos]]</tw-passagedata><tw-passagedata pid="16" name="&quot;Easy Bakchos, we&#39;ll be back on the trail soon and who knows what lies over these hills.&quot;" tags="" position="1425,725" size="100,100">&quot;Aye sire, always the cautious one, I&#39;ve drank a lot more than this in my time and still been able to fight.&quot; Bakchos snorted.
-
-&quot;Indeed and I&#39;ve borne witness, but after the last few days I&#39;d rather we play it safe.&quot;
-
-Bakchos nodded and returned to his rations, tripping on a stray branch on the way.
-
-[[&quot;Hahah, easy there!&quot; Odysseus called out|Chaos]]</tw-passagedata><tw-passagedata pid="17" name="&quot;Any more Bakchos and we won&#39;t be able to tell you from the cask. Although we know which we&#39;d leave behind in a pinch, from now on you go through me when you want free reign over our provisions, Seal it.&quot;" tags="" position="1550,725" size="100,100">In a flash of rage Bakchos wheeled to face his master.
-
-&quot;Here we go again, his highness, the man in charge of every area of his mens life. Shall I approach you every time I need to take a shit too? Or do you think I can manage that myself.&quot;
-
-[[&quot;What did you say? I&#39;ll have you whipped for insubordination, I&#39;ll have you flayed should you dare to speak to me in that manner&quot;|Chaos]]
-</tw-passagedata><tw-passagedata pid="18" name="Chaos" tags="" position="1550,875" size="100,100">In a second every man paused, frozen solid as a bellow echoed across the hills. The ground shook, the men darted to their equipment leaping over logs and trees, arrows were strung in the supposed direction of the noise but none could quite make out where it came from. The sound closed in on them from every direction.
-
-&quot;Over there&quot; Aegeus whispered.
-
-The men followed the direction of his hand towards a pillar of smoke rising in the distance. Another bellow ensued, it was like nothing they had ever heard before, as if it was coming from ten men at once.
-
-&quot;Easy now, there&#39;s no indication they are hostile. We&#39;re here to replenish what we can of our stores, who&#39;s to say these villagers won&#39;t help us.&quot; Odysseus said.
-
-&quot;Villagers! Did you hear that? What kind of villager has a voice that can shake the earth?&quot; Hesperos cautioned.
-
-[[&quot;Well, we&#39;re about to find out, everybody at arms, load up the mules and lets move, I&#39;ll take charge. Let&#39;s keep the songs to a minimum until we know what we&#39;re dealing with.&quot;]]</tw-passagedata><tw-passagedata pid="19" name="&quot;Well, we&#39;re about to find out, everybody at arms, load up the mules and lets move, I&#39;ll take charge. Let&#39;s keep the songs to a minimum until we know what we&#39;re dealing with.&quot;" tags="" position="1550,1000" size="100,100">The smoke was coming from a crudely fashioned pipe in a mound in the earth which gaped open, huge sheep surrounded the cavern grazing indifferently.
-
-Hesperos returned silent as ever to join the party crouched in the foliage.
-
-&quot;I&#39;ve scouted the entire west side Odysseus, there&#39;s a back entrance much the same size as the front one, I spotted some rusted tools by the door but they are massive, bigger than anything a mortal man could wield. Tracks lead out into the pastures with footprints five times the size of mine. I suggest we proceed with caution, if it&#39;s giants, we can&#39;t know if these giants will show us any xenos.&quot;
-
-[[Odysseus clenched his fists in frustration: &quot;Caution? Has the end of the war made you craven Hesperos? We&#39;ll approach through the front door and you can lead us, hell, take Bakchos here with you, he&#39;s well known for charming anybody.&quot;]]
-
-[[&quot;Well done Hesperos. We&#39;ll heed your advice and approach through the side door. Should anybody be inside let me do the talking. Remember, we&#39;re not here to steal, or loot anything.&quot;]]</tw-passagedata><tw-passagedata pid="20" name="Odysseus clenched his fists in frustration: &quot;Caution? Has the end of the war made you craven Hesperos? We&#39;ll approach through the front door and you can lead us, hell, take Bakchos here with you, he&#39;s well known for charming anybody.&quot;" tags="" position="1550,1125" size="100,100">The party approached the cavern cautiously, repulsed by the odour of sheep dung and urine.
-
-As they crossed the threshold and their eyes adjusted to the dim light within they saw a hulking silhouette of a roughly humanoid shape. It&#39;s back was turned, taking no notice of its new guests.
-
-Odysseus sauntered to the front of the pack and cleared his throat.
-
-&quot;Hello there stranger, Odysseus is my name and my party here have been exploring your fine lands in search of supplies to complete our voyage.
-
-The giant turned towards the party leaving a pit in their stomachs. It&#39;s single monstrous eye burned a hole through every man brave enough to meet its gaze, it stood there, motionless.
-
-Odysseus felt a hand on his shoulder, it was Aegeus: &quot;Odysseus maybe it&#39;s time to turn back, we-&quot;
-
-Within two strides the cyclops had closed the distance between them, with hardly enough time to draw their swords the cyclops caught the legs of two men. Bakchos and Kleon were lifted in to the air writhing like insects caught in a web. Emotionless he slammed the two men together exploding their bodies into a shower of blood and gore that sprayed over the party. Before he could cast their lifeless corpses aside Odysseus sprung into action.
-
-[[&quot;WITH ME, LET&#39;S MOVE&quot; Odysseus shouting and pointing towards a narrow crevice in the back of the cave thrust a hand into the nearest mans back pushing him towards it.|&quot;WITH ME, LET&#39;S MOVE&quot;]]</tw-passagedata><tw-passagedata pid="21" name="&quot;Well done Hesperos. We&#39;ll heed your advice and approach through the side door. Should anybody be inside let me do the talking. Remember, we&#39;re not here to steal, or loot anything.&quot;" tags="" position="1675,1125" size="100,100">Leading by example Odysseus lifed his chest high and lead his men towards the side gate. As they approached the door the odour hit them, sheep dung and urine. Foul.
-
-As they crossed the threshold and their eyes adjusted to the dim light within they saw a hulking silhouette of a roughly humanoid shape. It&#39;s back was turned, taking no notice of its new guests.
-
-Odysseus the diplomat cleared his throat.
-
-(if: $drunk is &quot;true&quot;)
-[
-&quot;WELL WOULD YOU LOOK AT THAT!&quot; Bakchos blurted. &quot;Aegeus is that your wife? Oh my, she really is something special, but you always said you wore the pants? Hello there my lady! We&#39;ve come to make peace, you see our master here, Odysseus is a hero of the Trojan war-&quot;.
-
-The giant turned revealing one monstrous eye in the center of its forehead. The men stood in silence.
-
-&quot;Damn you Bakchos, you drunkard&quot; Odysseus whispered. &quot;Greetings stranger, we have come from lands far away but our ship was recently blown far off course from a storm, we were hoping-&quot;
-
-Within two strides the cyclops closed the distance between them, sweeping down the monster caught the leg of Bakchos and lifted him high off the ground as he squirmed. With one downward thud he slammed the man on the ground. His body exploded in a shower of blood and gore, covering the stunned party. The cyclops put a collosal hand over his torso and head, muffling his screams and broke him in half like a twig discarding his body like a rag doll.
+[[&quot;Yes Bakchos?&quot;|Wine Check]]
 ]\
 (else: )
 [
-&quot;Aegeus how about a song.&quot; Odysseus said handing him his flute
-&quot;Aye boss, what would you like to hear.&quot;
-&quot;I&#39;ve never been one to fuss, lets hear
+(text-colour:grey)[(Morale too low): Jest with them]
+
+[[Scold them]]
 ]
 
-[[&quot;WITH ME, LET&#39;S MOVE&quot; Odysseus sprung into action spying a narrow crevice on the right he thrust a hand into the nearest mans back pushing him towards it.|&quot;WITH ME, LET&#39;S MOVE&quot;]]</tw-passagedata><tw-passagedata pid="22" name="&quot;WITH ME, LET&#39;S MOVE&quot;" tags="" position="1550,1250" size="100,100">&quot;RUN FOR THE GAP&quot; Odysseus shouted.
+</tw-passagedata><tw-passagedata pid="7" name="The Cyclops Bellows" tags="camp" position="1500,900" size="100,100">Every man paused, frozen solid as a bellow echoed across the hills. The ground shook as the men darted to their equipment leaping over logs and trees, arrows were strung in the direction of the noise but none could quite make out where it came from. The sound closed in on them from every direction.
 
-The cyclops voice boomed &quot;Who are you to enter my home? Who are you to step foot near my sheep? I&#39;ll destroy you all&quot; as he swept down narrowly missing Hesperos who leapt out the way.
+&quot;Over there&quot; Aegeus whispered.
 
-The crevice was only wide enough for two men to pass inside at a time but opened wider towards the rear. The last man to reach to crevice was Lysander, the oldest of the party, a man who had survived three arrows to the torso in the war, the man everybody turned to for. As he approached the threshold panting the cyclops came down on top of him with a mighty fist. Nobody had the heart to watch him die.
+The men followed the direction of his finger towards a pillar of smoke rising in the distance. Another bellow ensued, it was like nothing they had ever heard before, as if it was coming from ten men at once.
 
-[[Next Chapter]]</tw-passagedata><tw-passagedata pid="23" name="Next Chapter" tags="" position="2100,350" size="100,100">&#39;&#39;Chapter 3: The Cyclops Lair.&#39;&#39;</tw-passagedata></tw-storydata>
+&quot;What in Zeus&#39;s name, could it be villagers?&quot; Odysseus whispered.
+
+&quot;Villagers! Did you hear that? What kind of villager has a voice that can shake the earth?&quot; Hesperos cautioned.
+
+&quot;Well, we&#39;re about to find out, everybody up and lets move, keep the songs to a minimum until we know what we&#39;re dealing with.&quot; Odysseus said.
+
+[[Investigate the noise|To the cyclops lair]]</tw-passagedata><tw-passagedata pid="8" name="Sprint towards the crevice" tags="cave" position="1500,1350" size="100,100">&quot;RUN FOR THE GAP&quot; Odysseus shouted.
+
+The cyclops voice boomed &quot;Thieves! You enter my cave? What you do to my sheep? I&#39;ll feast on your bones.&quot; He swung his fists madly as he pursued the trail of men running for a crack in the cave wall.
+
+The crevice was only wide enough for two men to pass inside at once but opened wider towards the rear. The last man to reach to gap was Lysander, the oldest of the party, a man who had survived three near-mortal wounds in the war, the man everybody looked up to like a father.
+
+(if: $morale &gt; 3)
+[
+(text-colour:green)[[Heroic (high morale): Attempt to rescue Lysander]]
+]\
+(else: )
+[
+(text-colour:grey)[(Morale too low): Attempt to rescue Lysander]
+
+[[Powerless: Abandon him to his fate]]
+]
+</tw-passagedata><tw-passagedata pid="9" name="Chapter 3: The Belly of the Whale." tags="crevice" position="2400,300" size="100,100">&lt;h3&gt;Chapter 3: The Belly of the Whale.&lt;/h3&gt;
+
+Time passed slowly as the men sat in silence, lined up against the back of the crevice, wincing at each blow the cyclops made to the opening with his mighty pickaxe.
+
+&quot;Not much cave left to hide you now humans, soon nowhere left to hide.&quot; The bass of the cyclops voice shook the narrow cavern walls.
+
+&quot;Come on, come on, what have you got for us Odysseus, you got the Greeks into Troy, how are you going to get us out of here.&quot; Aegeus muttered, his legs trembling.
+
+Odysseus sat poised on the ground, motionless, he was either deep in contemplation or frozen solid with fear.
+
+Hesperos stopped his pacing, &quot;i&#39;m not sure there&#39;s enough wood in here for another horse.&quot; he said as he slumped back heavily against the cavern wall, breaking a splinter off into his backside.
+
+&quot;Ouch . . . speaking of wood.&quot; Hesperos ran his hands along the wall, feeling a worn wooden frame embedded in it, &quot;you won&#39;t believe this, it feels like a door.&quot;
+
+Odysseus rose from his reverie. &quot;Zeus himself bless you Hesperos, tell me there&#39;s a handle.&quot;
+
+Every man sat huddled in silent anticipation.
+
+Hesperos continued to feel along the frame until he paused. &quot;There is&quot; he replied.
+
+The party exhaled with relief. Odysseus spoke first: &quot;Well then, up we get, put your shoulders against it and fear not for what is beyond, even Hades is better than here.&quot;
+
+[[Force the door]]</tw-passagedata><tw-passagedata pid="10" name="Withdraw from the dark pool of the amulet" tags="cave" position="2100,1100" size="100,100">Odysseus was falling fast, screaming as the air rushed past his ears howling in utter darkness. Just as he was about to hit the bottom of the dark pit he recoiled back, falling onto his backside. Frantically he ran his hands over his whole body, it felt numb but alive. His ear drums almost burst at the echos of the cyclops screams as it crashed around the cave.
+
+Once the Cyclops had found its way out, Odysseus walked silently through the cave collecting the sacks of gold, gems and jewels scattered across the floor, not daring to look around and survey the scene. His blood felt cold as he pried a dismembered hand from the final sack and turned towards the exit pausing as he heard a whisper.
+ 
+&quot;Odyss. . . . Odysseus . . . Captain&quot;
+ 
+Odysseus turned towards the talking corpse, it was Hesperos, panting and wounded on the ground, his legs broken and twisted.
+ 
+&quot;Odysseus . . . the Cyclops, he was pacified, and then. . . &quot; Hesperos paused for breath, &quot;we tried to fight, he was too strong, Gods help us Odysseus they&#39;re all gone-&quot; his voice cracked as he spotted Aegeus bunched up against the wall, he began to weep.
+
+Odysseus stared in silence.
+
+Hesperos met his eyes. &quot;Help me up master, I can go on, I won&#39;t burden you, I can still walk with a stick . . . I just need a stick.&quot;
+
+Hesperos saw the lifelessness in his Commanders eyes, his hands clutching the bags of riches. He understood. &quot;You . . . monster, you would slaugher your own men for a few chips of gold, you snake, you son of a who-&quot; with the last ounces of his fading strength Hesperos spat towards Odysseus. &quot;I hope you never make it home Odysseus, I hope the gods have borne witness to what you have done here and curse you to wander forever.&quot;
+
+[[Callous: Leave Hesperos to slowly perish in the cave|Exit the cave]]
+
+[[Mercy: Put him out of his misery]]</tw-passagedata><tw-passagedata pid="11" name="Return to Odysseus" tags="crevice" position="2000,900" size="100,100">The rest of the party crept forward but Aegeus followed his instincts. Something was awry, Odysseus had never been a greedy man, but the way he eyed the treasure, not the mention the amulet from Troy.
+
+Aegeus moved slowly towards Odysseus, periodically peering back at the now stupified Cyclops. He peered over Odysseus shoulder into the amulet and through it he could see his men running towards the mouth of the cave and the Cyclops spring into action.
+
+&quot;You bastard.&quot; Aegeus slammed his fist into Odysseus jaw, awakening him and releasing the Cyclops from his sway.
+
+Screams echoed outside the crevice as Aegeus wrestled for control over Odysseus in the darkness, pinning his Commander down he reached for a nearby boulder to bring down on his head but felt his weight shift from under him, losing his breath as he landed on his back. The first blow to his face sent his ears ringing, the second broke his nose and the third knocked half the consciousness out of him.
+
+&quot;It didn&#39;t have to be this way Aegeus.&quot; Odysseus said catching his breath before bringing the rock down on Aegeus&#39;s face again. &quot;You could have had a quick death, an honorable death at the hands of the monster.&quot;
+
+Aegeus lay still and lifeless breathing labouriously as Odysseus scoured the floor of the cave for the amulet which had come loose during the fight. All had fallen quiet outside  the crevice until the Cyclops reappeared at the gap with his axe roaring, &quot;I know you&#39;re still in there, your men have been smashed into pieces, what did you do to me, stay out of my head.&quot;
+
+&quot;Od . . . Odysseus&quot; Aegeus muttered, coughing blood.
+
+He didn&#39;t stop his search to reply.
+
+&quot;Odysseus.&quot;
+
+Terrified amidst the sound of the last vestiges of rock falling away Odysseus paused. &quot;What&quot;
+
+&quot;Go to hell.&quot; Aegeus arm swung in the dark, and Odysseus heard a tinkling towards the opening of the crevice. As he turned towards the thin shaft of light illuminating the opening he saw the amulet bounce and roll out between the Cyclops legs.
+
+He collapsed motionless on the ground as Aegeus choked on his own blood. Burying his head in his arms he clutched his legs and shook violently as the Cyclops roars filled the tiny, hopeless cavern.
+
+[[The End]]</tw-passagedata><tw-passagedata pid="12" name="The End" tags="" position="2200,1500" size="100,100">Thanks for playing!
+
+This choose your own adventure game has 4 different endings so feel free to play again with different choices to get another one!</tw-passagedata><tw-passagedata pid="13" name="Judicious: Exit the cave." tags="twilight" position="2400,1100" size="100,100">Twilight filled the evening sky as the party left the cave. The soft light painted gentle shadows across the land outlining each tree and hill. Far ahead, towards the coast they spotted their ship still moored on the sand. The men basked in the sublime beauty of the evening, each man grateful for his life and that of the man next to him for the brotherhood they formed here would accompany them for the rest of their journey.
+
+[[The End]]</tw-passagedata><tw-passagedata pid="14" name="Bloodthirsty: Return for vengeance on the sleeping Cyclops" tags="cave" position="2800,900" size="100,100">Odysseus, speaking with hand gestures and whispers spoke to his men with words of courage to steel their nerves for the task ahead, to the left of the cave entrance lay a long wooden beam which the men carved into a point on one end with their swords. Lifting it proved no easy feat as it was heavy enough for four of them.
+
+Odysseus paused. &quot;This will not do, the beam is lacking one more thing.&quot; A mischevious grin spread across his face as he pointed towards a brazier of burning hot coals.
+
+[[Heat the beam]]</tw-passagedata><tw-passagedata pid="15" name="Interrogate" tags="" position="1000,1100" size="100,100">(set: $morale to $morale - 1)
+
+Odysseus stood poised, challenging any man to meet his gaze for longer than a few seconds, none had the heart but Bakchos.
+
+Odysseus met his gaze forcefully, &quot;you&#39;re putting your brothers at risk Bakchos.&quot; 
+
+&quot;Pardon me sire.&quot; Bakchos said.
+
+&quot;You&#39;re putting their lives in danger. If you get any fatter i&#39;ll strip your sword from your back and have you scrubbing decks for the rest of the voyage.&quot;
+
+After a few minutes of mirthless silence the ship thudded against the hard coastal sand sending a shockwave through the frame.
+
+&quot;Here we are, men with me.&quot; Odysseus turned towards the ladder.
+
+[[Disembark]]</tw-passagedata><tw-passagedata pid="16" name="Disembark" tags="" position="900,1300" size="100,100">&quot;But sire.&quot; Bakchos protested, &quot;shall we not bring a cask of the black wine with us for the days rest. Surely the men will require something to drink when the sun reaches its zenith.&quot;
+
+Odysseus turned to eye the cask, it looked heavy, heavy enough to slow them down for the unknown journey ahead, yet the men did love their wine.
+
+[[Take the wine]]
+
+[[Leave the wine]]</tw-passagedata><tw-passagedata pid="17" name="Take the wine" tags="" position="1050,1300" size="100,100">(set: $wine to &quot;true&quot;)
+Odysseus nodded, &quot;we&#39;ll take the wine, but it shall be under your care Bakchos, can I trust you?&quot;
+
+Bakchos grinned, &quot;not a single drop shall go unaccounted for Captain.&quot;
+
+As each man took turns descending to the shore, Odysseus paused at the ladder, &quot;at ease men, I&#39;ve just recalled one more item I cannot go without, I need to return to my quarters.&quot;
+
+[[Return to cabin]]
+</tw-passagedata><tw-passagedata pid="18" name="Leave the wine" tags="" position="750,1300" size="100,100">&quot;The cask weighs heavy Bakchos and when Troy fell, the lot of you had enough to drink to last a lifetime. A drink at mid-day is not worth our lives or even an extra hour on this strange land, we need to travel light.&quot; Odysseus said.
+
+Someone muttered something under their breath and Bakchos sighed.
+
+As each man took turns descending to the shore, Odysseus paused at the ladder, &quot;at ease men, I&#39;ve just recalled one more item I cannot go without, I need to return to my quarters.&quot;
+
+[[Return to cabin]]</tw-passagedata><tw-passagedata pid="19" name="Open the wine" tags="camp" position="1500,500" size="100,100">Once the wine was poured, silence overcame the camp as each man basked in the glory of the day in his own way. Hesperos sat, enchanted by a family of butterflys fluttering together in unison while Aegeus sat removed, writing privately in his journal.
+
+The silence was broken by a hearty belch from Bakchos as he approached the cask for another cup. Odysseus eyed him suspiciously.
+
+[[Judicious: Deny Bakchos more wine]]
+
+[[Careless: Allow Bakchos more wine]]</tw-passagedata><tw-passagedata pid="20" name="Judicious: Deny Bakchos more wine" tags="camp" position="1325,700" size="100,100">&quot;Any more Bakchos and we won&#39;t be able to tell you from the cask. Although we know which we&#39;d leave behind in a pinch.&quot;
+
+&quot;Aye sire, always the cautious one, I&#39;ve drank a lot more than this in my time and still been able to fight.&quot; Bakchos snorted.
+
+&quot;Indeed and I&#39;ve borne witness, but after the last few days I&#39;d rather we play it safe.&quot;
+
+Bakchos nodded and returned to his rations, tripping and stumbling on a stray branch on the way. The men strained to conceal their laughter as he raised his fist at them.
+
+[[&quot;Okay it&#39;s coming time men, prepare to move.&quot;|The Cyclops Bellows]]</tw-passagedata><tw-passagedata pid="21" name="Careless: Allow Bakchos more wine" tags="camp" position="1500,700" size="100,100">(set: $drunk to &quot;true&quot;)
+Odysseus stood up. &quot;Another cup my friend? Let me join you, is there anyone else for another round?&quot;
+
+Odysseus approached the cask with many cups in hand, filling each and spilling more than he caught.
+
+[[&quot;Alright one last drink before we go, HESPEROS! Where is Hesperos.&quot;|The Cyclops Bellows]]</tw-passagedata><tw-passagedata pid="22" name="To the cyclops lair" tags="" position="1500,1050" size="100,100">&lt;img src=&quot;images/cave entry.jpg&quot;/&gt;
+The smoke was coming from a crudely fashioned pipe protruding from a mound in the earth. The front of the cave gaped open with razor sharp rocks along the edges like teeth, wide enough to swallow the entire party at once. Among the surrounding pastures huge sheep, the size of horses surrounded the cavern, grazing indifferently.
+
+As the party sat concealed in the tall grass, Hesperos returned, moving silently.
+
+&quot;I&#39;ve scouted the entire circumference Odysseus, this is the only entrance. I spotted some rusted tools on the far side, they are massive, bigger than anything a mortal man could wield. Tracks lead out into the pastures with footprints five times the size of my own foot. I suggest we proceed with caution, if it&#39;s giants, we can&#39;t know if they will respect our laws of hospitality.&quot; Hesperos said.
+
+Odysseus clapped him on the shoulder and returned his gaze to the group, &quot;Let us move with caution. Should anybody be inside let me do the talking. Remember, we&#39;re just here for supplies.&quot;
+
+[[Approach the cave]]</tw-passagedata><tw-passagedata pid="23" name="Approach the cave" tags="cave" position="1500,1200" size="100,100">Odysseus lead his men towards the dark maw of the cave. As they approached, the odour hit them sending a wave of nausea through their body, sheep dung, urine and rotting things. Foul.
+
+As they crossed the threshold, the parties eyes slowly adjusted to the darkness. Looking ahead at the end of the cavern they saw the hulking silhouette of a giant the height of three men, its legs thick as tree trunks and back bulging with knots of muscle covered by sagging, moss-like hair. It&#39;s back was turned, taking no notice of its new guests.
+
+Odysseus the diplomat cleared his throat.
+(if: $drunk is &quot;true&quot;)
+[
+(set: $morale to $morale - 1)
+&quot;WELL WOULD YOU LOOK AT THAT!&quot; Bakchos blurted. &quot;Aegeus is that your wife? Oh my, she really is something special, but you always said you wore the pants? Hello there my lady! We&#39;ve come to make peace, you see our master here, Odysseus, is a hero of the Trojan war-&quot;.
+
+The giant turned towards the party striking fear into each man. It&#39;s single monstrous eye burned a hole through any man brave enough to meet its gaze. It stood motionless, eerily silent, unblinking.
+
+&lt;img src=&quot;cyclops.png&quot;/&gt;
+
+&quot;Damn you Bakchos, you drunkard&quot; Odysseus whispered. &quot;Greetings stranger, we have come from lands far away but our ship was recently blown far off course from a storm, we were hoping-&quot;
+
+The Cyclops sprung into motion, running headlong towards them, saliva dripping from it&#39;s mouth. Within two strides it had closed the distance. Sweeping down it caught the leg of Bakchos and lifted him high off the ground as he squirmed like a fly in a web. The men drew their arrows but it was too late. With one downward thud the Cyclops slammed Bakchos on the ground, his body exploding into a shower of blood and gore, covering the stunned party. As Bakchos screamed in terror the cyclops put a collosal hand over his torso and head, muffling him and with one twist broke him in half like a twig, discarding his body like a rag doll.
+]\
+(else: )
+[
+&quot;Hello there stranger, my party here have been exploring your fine lands in search of supplies for the latter half of our voyage. We were hoping-&quot;
+
+The giant turned towards the party freezing them solid. It&#39;s single monstrous eye burned a hole through any man brave enough to meet its gaze. It stood motionless, eerily silent, unblinking.
+
+&lt;img src=&quot;cyclops.png&quot;/&gt;
+
+Odysseus was startled by a hand on his shoulder, it was Aegeus: &quot;Odysseus maybe it&#39;s time we turn back.&quot;
+
+The sound of a man drawing his sword caught their attention, snapping his gaze back Odysseus saw the Cyclops running headlong towards them, saliva dripping from it&#39;s mouth. Within two strides the Cyclops had closed the distance between them and swept down, reaching for the leg of Bakchos who narrowly dodged, leaping aside. The cyclops roared and pounded his chest as the party scattered.
+]
+
+Odysseus sprung into action. &quot;WITH ME, LET&#39;S MOVE,&quot; looking left he spied a thin narrow crack in the cave wall wide enough to fit them and gestured towards it. He thrust a hand into the nearest mans back pushing him in its direction.
+
+[[Sprint towards the crevice]]</tw-passagedata><tw-passagedata pid="24" name="Force the door" tags="crevice" position="2400,500" size="100,100">Odysseus make-shift torch burst alight, casting dancing shadows against the walls as Hesperos shoved the door ajar, with another push the frame broke off it&#39;s hinges revealing a small cavern filled with hundreds of eyes, blinking with different colours. Hesperos leapt back and drew his sword.
+
+Odysseus waved the torch inside to repel the beasts. The flame revealed thousands of tiny gold pieces mixed with jewels scattered across the floor. The rubies, emeralds and diamonds sparkled magnificently in the torchlight but failed to attract a single mans gaze as they anxiously scanned the walls inside for another door, another gap, another way out, anything, but all they could see was solid rock.
+
+Aegeus grabbed a handful of gold and tossed it aside, &quot;I told you we were cursed Odysseus, what cruel trick is this to give a man a lifetimes worth of wealth and no means of escape.&quot;
+
+&quot;More like ten lifetimes Aegeus, ten for every man here.&quot; Odysseus said admiring the haul, &quot;such incentive is good for our escape, and what would you know I have an idea.&quot;
+
+[[Enter the cavern]]
+</tw-passagedata><tw-passagedata pid="25" name="Enter the cavern" tags="crevice" position="2400,700" size="100,100">(if: $amulet is &quot;true&quot;)
+[
+Odysseus felt a weight on his chest, a voice invaded his mind.
+
+&quot;Odysssssseus, hero of the Trojan war, leader among men, the finest Commander to ever live. You think these men deserve a cut of this treasure? If only you knew what foul intentions lay in their hearts. If it weren&#39;t for you they would still be throwing themselves against the Trojan walls.&quot;
+
+He grimaced and clutched the amulet under his tunic feeling its terrible power.
+
+&quot;Put your faith in me Odysseus, I will get us out of here, free of these parasites and you can return home to Ithica a wealthy man, no longer will your house remain in obscurity, you&#39;ll have enough here to furnish the finest navy Greece has ever seen, and then, well, that&#39;s just the beginning.&quot;
+
+Odysseus stared deeply into the amulet as the men waited for his command. As his eyes went deeper into its spiraling pool he could see the front of the crevice and two giant fists clenched around a large pickaxe, striking blows around the edges.
+
+Aegeus interupted his trance. &quot;I told you to discard that thing Odysseus, the man who took that trinket from the temple of Zeus in Troy was found dead in his quarters soon after, clearly slaughtered in cold blood. It&#39;s cursed. I don&#39;t dare to imagine how you acquired it.&quot; Aegeus whispered.
+
+Odysseus felt a terrible rage bubble up inside of him at the thought of parting with the amulet and clutched his dagger firmly with his free hand before re-gaining control and releasing his grip. 
+
+(if: $wine is &quot;true&quot;)
+[
+[[Discard the amulet]]
+
+[[Keep the amulet]]
+]\
+(else:)
+[
+(text-colour:grey)[(No wine cask): Discard the amulet]
+
+[[Keep the amulet]]
+]
+
+(if: $drunk is &quot;false&quot;)
+[
+Odysseus found Bakchos sat in the dark, indifferent to the riches scattered across the floor. He turned towards Odysseus as he approached. &quot;He almost had me Odysseus, one more sip of wine earlier and I would not have had the wits to leap free of his grasp.&quot;
+
+&quot;Another favour you owe me.&quot; Odysseus said with a smile, &quot;now tell me, what fate befelled our wine?&quot;
+
+&quot;I&#39;ll never drink again.&quot; Bakchos lamented. &quot;I abandoned the barrel when the Cyclops charged us, it&#39;s outside. But I must tell you the truth sire, I filled my flask when you weren&#39;t looking. Here, take it, I have no need of this blasted poison anymore.&quot;
+
+&quot;Bakchos you blessed fool! I&#39;ve never been so happy at your insubordination, you may have just saved the skin of every man here. Now hand me that bowl, let us teach the Cyclops what true Greek hospitality looks like.&quot; Odysseus readied the men and approached the mouth of the crevice sliding the full bowl of wine towards the Cyclops.
+]\
+(else:)
+[
+Odysseus turned to the men. &quot;Has any man any wine remaining from todays rest?&quot;
+
+A few men nodded. &quot;Sire, we kept a little in our flasks.&quot;
+
+&quot;Here, pour it in this bowl, let us teach this Cyclops what true Greek hospitality looks like.&quot; Odysseus readied the men and approached the mouth of the crevice sliding the wine towards the Cyclops.
+]
+
+&quot;Here, Cyclops, have a drink of wine, now you have fed on human flesh, and see what kind of drink our ship carried inside her. I brought it for you, and it would have been your libation had you taken pity and sent me home, but I cannot suffer your rages. Cruel, how can any man come and visit you ever again, now you have done what has no sanction?&quot; 
+
+Greedily the Cyclops drank down the bowl and smacked his grotesque lips. Once he had caught the scent of the fine wine, he found the barrel discarded outside and broke it open, draining the remainder.
+
+&quot;Give me still more, freely, and tell me your name straightway now, so I can give you a guest present to make you happy. For the grain giving land of the Cyclopes also yields them wine of strength, and it is Zeus&#39; rain that waters it for them; but this comes from where ambrosia and nectar flow in abundance.&quot;
+
+[[Deceive: &quot;Nobody&quot;|Escape]]
+
+[[Placate: &quot;Master cyclops, my name is Odysseus, a humble solider from the Trojan war who wants nothing more than to return home to his house and family, we have given you gifts and good company, now we would like to peacefully make our way.&quot;|Escape]]
+
+[[Intimidate: &quot;Poseidon himself curse you you ugly bastard, should you have been my size I would have cut you down the moment I laid eyes on you&quot;|Escape]]
+]</tw-passagedata><tw-passagedata pid="26" name="Keep the amulet" tags="crevice" position="2200,700" size="100,100">&quot;Nonsense Aegeus, this amulet is our ticket to freedom. You must heed me now brother, we fought together for ten years, I need you to lead these men from the cave in a few moments once that Cyclops falls silent, I need you to trust me.&quot; Odysseus turned back to the amulet, staring deep within.
+
+Silence reigned. When the dust had settled from the Cyclops furious strikes the men began working their way to the front of the crevice, lead by Aegeus. When they reached the fore they saw the Cyclops sat, crossed legged and slack jawed, pacified, staring straight at them with eye glazed over.
+
+&quot;Is this some kind of trap?&quot; Hesperos whispered. As he cast his eyes back he saw Odysseus solid as a statue, entranced, staring into the amulet around his neck.
+
+(if: $morale &gt; 3)
+[
+&quot;Hesperos take the lead, I&#39;m going to see about our master.&quot; Aegeus said.
+
+[[Return to Odysseus]]
+]\
+(else:)
+[
+(text-colour:grey)[Suspicion (morale too low): Return to confront Odysseus]
+
+[[Comfort the men.]]
+]</tw-passagedata><tw-passagedata pid="27" name="Discard the amulet" tags="crevice" position="2200,500" size="100,100">(set: $amulet to &quot;false&quot;)
+
+&quot;Ever since I acquired this thing it has been slowly gaining a hold on me, I can barely sleep lest I know it is by my side. Take it from me friend, take it to a dark corner of this blasted cave and be rid of it. We will find another way out of here.&quot; Odysseus hesitated as he took one last look at the amulet grasping it tight before releasing it to fall into Aegeus&#39;s palm.
+
+&quot;I will make sure neither of us ever see it again sire.&quot; Aegeus walked away from the torchlight into a dark corner of the cave.
+
+Odysseus felt faint as the amulet grew further away from him and fought to repress the urge to run after Aegeus.
+
+[[Steady yourself|Enter the cavern]]</tw-passagedata><tw-passagedata pid="28" name="Escape" tags="crevice" position="2600,700" size="100,100">&quot;Bah! No matter your name, your flesh more important.&quot; The Cyclops bellowed.
+
+As each minute passed, the blows to the crevice began to fall slower and slower until none could be heard at all. No man dared to approach the front lest it be a trap until they heard a deep rhythmic rumbling fill the cave, sounds of breathing and snorting were rising and falling. The Cyclops was snoring.
+
+Odysseus caught every mans eye in the dim torchlight, a glimmer of hope shined in each. He placed his index finger over his lips and motioned for them to follow. Each man held his sack of gold and riches tight to his body, lest they tinkle.
+
+As they left the crevice they could see the last shafts of evening light entering the mouth of the cave ahead of them and the enormous body of the Cyclops asleep on his side. The men tip-toed passed the Cyclops, moving slowly until they broke into a run when freedom was within reach.
+
+&lt;img src=&quot;cave exit&quot;/&gt;
+As they reached the threshold the entire party paused, sucking in the fresh air, infected with a surge of confidence. Without speaking each man knew what lay in eachothers hearts. Vengeance. Vengeance for transgressing the most sacrosanct law of xenia, hospiltality. They left it up to their Commander to decide how to proceed.
+
+[[Judicious: Exit the cave.]]
+
+[[Bloodthirsty: Return for vengeance on the sleeping Cyclops]]</tw-passagedata><tw-passagedata pid="29" name="Leave the crevice" tags="" position="2250,975" size="100,100">&lt;img src=&quot;images/cave exit&quot;/&gt;
+The hearts of every man lifted as they came closer to the thin shaft of light coming from the front entrance. They moved tentatively at first, without their gaze leaving the hulking beast, but once in the all clear, they broke into a sprint.
+
+Every step bought their spirits higher, they thanked the Gods in their breathless dash, forty metres, thirty metres, the smell of fresh air filled their nostrils. That&#39;s when the ground shook and they heard the footsteps behind them.
+
+The Cyclops passed them, stepping over the last man. With two arms he bent and heaved a boulder into the mouth of the cave, sealing the entrance air tight, they were trapped inside,
+
+The Cyclops turned to face the horrified party, and then the slaughter began. Aegeus charged, sword drawn as the men in the rear loosed their arrows. The Cyclops brushed them off like needles and his enormous fists swung like wrecking balls, the first blow slammed Aegeus into the cave wall who crumpled on impact. The rest fared no better as each man took his turn to face the strength of the Cyclops, some died heroically, stabbing his fingers with their daggers until the last breath was squeezed out of them, some died like cowards, crying in a ball on the floor.
+
+Within minutes it was over and the cyclops rolled the boulder out of the way, opening the cavern entrance. Pausing solemnly he placed his palms on his temples and pressed both thumbs into his eye, clenching his jaw as they ran deeper and deeper until they reached the socket. Breathing heavily he gouged the rest of his eye out and stood motionless as the blood ran in rivulets down his torso to the floor, mingling with that of the Greeks.
+
+[[Withdraw from the dark pool of the amulet]]</tw-passagedata><tw-passagedata pid="30" name="Mercy: Put him out of his misery" tags="cave" position="1900,1100" size="100,100">Odysseus moved silently towards Hesperos, placing the sacks of riches down he kneeled before his old comerade and cupped the back of his head staring away solemnly.
+
+&quot;Look at me, LOOK AT ME *cough*&quot; Blood poured from Hesperos&#39;s mouth. &quot;You coward, you bastard, you won&#39;t even loo-&quot; 
+
+Odysseus forced the dagger into his solar plexus and withdrew it with the cold efficiency of a surgeon, dropping his head to bounce against the floor. As he walked back to the bags of riches his body betrayed him and he doubled over and wreched until there was nothing left in his stomach. Looking back at his reflection in the pool of bile and vomit he couldn&#39;t recognise his face.
+
+[[Exit the cave]]
+
+</tw-passagedata><tw-passagedata pid="31" name="Exit the cave" tags="twilight" position="2000,1300" size="100,100">Twilight filled the evening sky as he left the cave. The soft light painted gentle shadows across the land outlining each tree and hill. Far ahead, towards the coast he spotted his ship still moored on the sand. A view that would once fill him with wonder now felt empty. As he walked his legs wobbled until he had to take a rest, the sheep outside eyed him wearily and avoided his path as the winged and hoofed shadow he cast bore no resemblance to that of a man.
+
+[[The End]]</tw-passagedata><tw-passagedata pid="32" name="Heat the beam" tags="cave" position="2800,1050" size="100,100">The beam cracked and popped above the heat, once it was at the point of igniting, glowing terribly incandescent the men readied themselves a short distance from the sleeping Cyclops. His breath smelt putrid as his steady exhale hit their faces.
+
+&quot;On my command.&quot; Odysseus whispered. &quot;CHARGE!&quot;
+
+The mens shouts awoke the sleeping Cyclops, who opened his eye as the beam made contact with the center, boiling the blood and fibrous layers into a watery goop. Steam ran out of the wound as the scorch of the burning tip singed his eyebrow and eyelid. The Cyclops gave out a blood-curdling cry, scattering the men towards the exit as he desperately tried to pry the beam loose.
+
+&quot;MY EYE, WHAT YOU DONE TO ME.&quot; he roared as he flailed, madly feeling around the floor for the perpetrators. Once he had caught the sound of their racing footsteps he ran in a quick, stumbling pursuit leaving a river of blood running down his chin and chest.
+
+A sideways sweep of his hand knocked Hesperos down, and before he could rise again the Cyclops dived on him, wrapping two hands around his waist and began to squeeze. Hesperos gasped for air and grimaced in agony as his body compressed under the grip.
+
+Contorting his face into a horrific grin the Cyclops smiled, blood covering his teeth and bought Hesperos closer. &quot;I&#39;ve got you now $name.&quot;
+
+Odysseus turned.
+
+(if: $morale &gt; 3)
+[
+[[Heroic: Attempt to rescue Hesperos]]
+
+[[Cautious: Abandon Hesperos to his fate]]
+]\
+(else: )
+[
+(text-colour:grey)[(Morale too low): Attempt to rescue Hesperos]
+
+[[Cautious: Abandon Hesperos to his fate]]
+]</tw-passagedata><tw-passagedata pid="33" name="Cautious: Abandon Hesperos to his fate" tags="cave" position="2650,1200" size="100,100">Odysseus locked eyes with Hesperos for a moment that felt like a lifetime. He saw the boys fear stricken face, like an animal caught in a trap, desperately trying to escape. His heart broke open as he made the decision to leave him. Wrestling his eyes away, he turned: &quot;Keep moving, we can&#39;t save hi-&quot;
+
+Odysseus reached a hand out to catch Aegeus who was running past. &quot;ENOUGH Aegeus, we cannot save him, I command you, we must retreat.&quot;
+
+Odysseus struggled to hold him back as Aegeus bucked against him like a wild animal. Ahead, Hesperos gave a horrible cry and slumped forward.
+
+The last thing any man saw of him was the giant lifting his sagging corpse to his mouth.
+
+[[Retreat|Hesperos dead: Exit the cave]]</tw-passagedata><tw-passagedata pid="34" name="Heroic: Attempt to rescue Hesperos" tags="cave" position="2800,1200" size="100,100">&quot;Back into the fray!&quot; Odysseus roared as the entire party turned and charged back in his wake.
+
+Leaning on the side of the cave was the Cyclops hatchet, an axe the size of two men and the weight of four. Odysseus grabbed its base and put every last ounce of strength into lifting it to no avail until some great divinity breathed Godlike strength into him and it rose.
+
+Turning like a man possessed and walking slowly with great exertion Odysseus approached the Cyclops with his arms extended around Hesperos, lined up the hatchet and dropped it down, severing the Cyclops left hand clean from his wrist. He recoiled at the horrible blow, blood exploding from his stump, filling the air with red droplets.
+
+Hesperos, now barely conscious gasped desperately for breath as his brothers raced over to pry open the still frozen fingers of the severed hand. As the middle finger stubbornly bent open, he fainted in his struggle. Two men caught Hesperos under each arm as Odysseus hurried them towards the cave mouth.
+
+[[Exit the cave|Hesperos unconscious: Exit the cave.]]</tw-passagedata><tw-passagedata pid="35" name="Hesperos unconscious: Exit the cave." tags="twilight" position="2800,1400" size="100,100">Twilight filled the evening sky as the party left the cave. The soft light painted gentle shadows across the land outlining each tree and hill. The men took turns bearing Hesperos as none could stop their legs wobbling after the ordeal. Far ahead towards the coast they spotted their ship still moored on the sand.
+
+Hesperos awoke and eyed his companions, letting go an audible sigh. &quot;What happened?&quot;
+
+Odysseus turned, &quot;we asked him nicely to let you go and he acquisced.&quot; clapping him on the shoulder.
+
+The men laughed a laugh of the saved and thankful, each man looking upon the faces of eachother, grateful to be alive.
+
+[[The End]]</tw-passagedata><tw-passagedata pid="36" name="Hesperos dead: Exit the cave" tags="twilight" position="2650,1325" size="100,100">Twilight filled the evening sky as the party left the cave. The soft light painted gentle shadows across the land outlining each tree and hill. The men moved slowly and quietly, careful not to break a twig or kick a stone lest the Cyclops hear them and come searching. In the distance they could see him roaming and staggering around, the bloody hole in the middle of his head as dark as a deep well.
+
+Silencewas all around them as they staggered down the steep hills, Aegeus face was black with grief, the other men the same. Far away towards the coast they spotted their ship still moored on the sand.
+
+As they reached the shore they paused, every man eyeing eachother, tasting their bittersweet vengeance, with many of them weeping and sobbing.
+
+Odysseus handed every man a cup of wine. &quot;For Hesperos&quot; their voices rang out in unison as each poured his cup over the sand.
+
+[[The End]]</tw-passagedata><tw-passagedata pid="37" name="Judicious" tags="" position="700,700" size="100,100">&quot;We&#39;ve enough provisions to last a month but I would advise prudence Odysseus, after that storm blew us off course I&#39;ve cause to think the Gods are against us, only Zeus could conjure up such mighty winds.&quot;
+
+Odysseus paused in contemplation. &quot;We should have restrained ourselves in victory Aegeus, the Trojans fought bravely and deserved better, this does not bode well. We shall seek additional supplies on land.&quot;
+
+[[&quot;Prepare the men to disembark.&quot;]]</tw-passagedata><tw-passagedata pid="38" name="Intimidate" tags="" position="900,700" size="100,100">(set: $morale to $morale - 1)
+&quot;My apologies sire, I thought you would want more rest, the men say you are starting to come across unhinged, they say you are losing your temperance.&quot; Aegeus said.
+
+A rage flashed across Odysseus face, &quot;who says?&quot;
+
+&quot;I am not at liberty to disclose sire, you know th-&quot;
+
+&quot;I didn&#39;t appoint you as my second in charge to report back groundless rumors Aegeus,&quot; Odysseus barked.
+
+[[&quot;Prepare the men to disembark.&quot;]]</tw-passagedata><tw-passagedata pid="39" name="Reflective" tags="" position="1100,700" size="100,100">&quot;Greece is never far from my mind either Captain. How I long to lay my eyes upon it again, to hold my wife and wrestle with my sons, time will tell if they still recognise their father . . . much has changed in ten years Odysseus, I can see it in your eyes and God knows the dreams of war still haunt me when I lay down to rest.&quot; Aegeus said.
+
+&quot;The men who fell beside us will never be forgotten Aegeus, they fought and died bravely, I&#39;ve no-&quot;
+
+&quot;Fought and died bravely for what?&quot; Aegeus interupted, &quot;for some kings glory? So he could recover his traitorous wife? We entered battle blinded by the promise of fame and glory brother and what did we get in return? Those who were lucky died, the rest of us have to live with the memories.&quot;
+
+Rising up from his bed Odysseus placed his hand on Aegeus&#39;s shoulder. &quot;Keep your head Aegeus, it won&#39;t be long before we&#39;re home, I cannot have you expressing these opinions around the men,&quot; Odysseus looked into Aegeus&#39;s eyes, &quot;the sands of time will wear away the horrors and nightmares Aegeus, until then we must endure.&quot;
+
+Aegeus cast his eyes downward, &quot;of course brother, our journey will soon come to an end.&quot;
+
+[[&quot;Prepare the men to disembark.&quot;]]</tw-passagedata><tw-passagedata pid="40" name="Friendly" tags="" position="800,1100" size="100,100">&quot;So this is what I&#39;ve got to work with? You all look like you&#39;ve aged fifty years, did the Trojans really give you that much of a kicking?&quot; Odysseus said sarcastically.
+
+A chuckle passed through the ranks.
+
+&quot;Judging by your beard sire it appears you snuck off to fight four wars for our one.&quot; Bakchos jested.
+
+&quot;And you thought command was all riches and women Bakchos, glad to have you with us today, your sense of humor will come in handy should we need to have ourselves banished from these lands for good.&quot;
+
+Odysseus and the men continued their ribbing and banter, within minutes the ship thudded against the hard coastal sand sending a shockwave through the frame.
+
+&quot;Here we are, men with me.&quot;
+
+[[Disembark]]</tw-passagedata><tw-passagedata pid="41" name="Scold them" tags="camp" position="1825,625" size="100,100">Odysseus felt his amulet pulse sending a shockwave of hatred through him. &quot;What insolence is this? I turn my back for five minutes to scout that hill and you all burst into riot like a band of fools.&quot;
+
+The camp fell silent, eyeing Odysseus suspiciously as the feeling passed and he returned to his senses. None but Bakchos dared to speak up.
+
+[[Embarrasment: Turn away|Wine Check]]</tw-passagedata><tw-passagedata pid="42" name="Wine Check" tags="camp" position="1700,625" size="100,100">(if: $wine is &quot;true&quot;)
+[
+&quot;Sire! I&#39;ve carried it on my back all the way, I&#39;ve been smelling it&#39;s sweet odour for hours, I can&#39;t take it for much longer, let us open the cask, I can&#39;t be the only man in need of a drink&quot; Bakchos said.
+
+With a wave of the hand Odysseus gestured towards the cork, the men gathered their cups.
+
+[[Open the wine]]
+]\
+(else:)
+[
+&quot;What&#39;s gotten in to you Odysseus? Ever since Troy fell you haven&#39;t been yourself, your eyes have grown darker and skin sallow, some of the men report hearing you whispering a strange tongue in your cabin. Is it Illness sire, do you need rest?&quot; Bakchos said.
+
+[[Evade: &quot;Don&#39;t worry for me Bakchos, the war has taken its toll is all as it has on us all.&quot;|The Cyclops Bellows]]
+]
+
+</tw-passagedata><tw-passagedata pid="43" name="Powerless: Abandon him to his fate" tags="cave" position="1500,1475" size="100,100">As he approached the threshold panting, the cyclops came down on top of him like a spider pouncing on its prey. Nobody had the heart to watch him die.
+
+[[Next Chapter|Chapter 3: The Belly of the Whale.]]</tw-passagedata><tw-passagedata pid="44" name="Heroic (high morale): Attempt to rescue Lysander" tags="cave" position="1625,1475" size="100,100">Odysseus spotted the Cyclops gaining on him. &quot;Archers! Arrows at the ready!&quot;
+
+Kleon, the parties sharp shooter paused mid-sprint and spun on his heel, loading an arrow as he turned.
+
+&quot;Fire!&quot; Odysseus shouted. 
+
+As the arrow passed over his shoulder it struck the Cyclops knee causing it to stumble.
+
+Odysseus ran from safety, grabbing Lysander and dragging him inside of the gap narrowly escaping the Cyclops grasp as he slammed into the crevice.
+
+[[Next Chapter|Chapter 3: The Belly of the Whale.]]</tw-passagedata><tw-passagedata pid="45" name="Comfort the men." tags="" position="2250,850" size="100,100">&quot;It&#39;s no trap boy, we&#39;re getting out of here after all.&quot; Aegeus said patting his shoulder. &quot;Worry not for Odysseus men, he will find his way, now lets move before the Cyclops wakes.&quot; Aegeus said.
+
+[[Leave the crevice]]</tw-passagedata></tw-storydata>
 <script title="Twine engine code" data-main="harlowe">(function(){"use strict";
 var require,define;!function(){var e={},r={};require=function(i){var n=e[i];return n&&(r[i]=n[1].apply(void 0,n[0].map(require)),e[i]=void 0),r[i]},(define=function(r,i,n){if("function"==typeof r)return r();e[r]=[i,n]}).amd=!0}();/*!
  * https://github.com/paulmillr/es6-shim
