@@ -240,32 +240,29 @@ Hesperos continued to feel along the frame until he paused. &quot;There is&quot;
 
 The party exhaled with relief. Odysseus spoke first: &quot;Well then, up we get, put your shoulders against it and fear not for what is beyond, even Hades is better than here.&quot;
 
-[[Force the door]]</tw-passagedata><tw-passagedata pid="10" name="Withdraw from the dark pool of the amulet" tags="cave" position="2325,1125" size="100,100">Odysseus was falling fast, screaming as the air rushed past his ears howling in utter darkness. Just as he was about to hit the bottom of the dark pit he recoiled back, falling onto his backside. Frantically he ran his hands over his whole body, it felt numb but alive. His ear drums almost burst at the echos of the cyclops screams as it crashed around the cave.
+[[Force the door]]</tw-passagedata><tw-passagedata pid="10" name="Withdraw from the dark pool of the amulet" tags="cave" position="2200,1150" size="100,100">Odysseus was falling fast, screaming as the air rushed past his ears howling in utter darkness. Just as he was about to hit the bottom of the dark pit he recoiled back, falling onto his backside. Frantically he ran his hands over his whole body, it felt numb but alive. His ear drums almost burst at the echos of the cyclops screams as it crashed around the cave.
 
 Once the Cyclops had found its way out, Odysseus walked silently through the cave collecting the sacks of gold, gems and jewels scattered across the floor, not daring to look around and survey the scene. His blood felt cold as he pried a dismembered hand from the final sack and turned towards the exit pausing as he heard a whisper.
  
 &quot;Odyss. . . . Odysseus . . . Captain&quot;
 
-[[Next]]</tw-passagedata><tw-passagedata pid="11" name="Suspicious (high morale): Return to confront Odysseus" tags="crevice" position="1925,1300" size="100,100">The rest of the party crept forward but Aegeus followed his instincts. Something was awry, Odysseus had never been a greedy man, but the way he eyed the treasure, not the mention the amulet from Troy.
+[[Next]]</tw-passagedata><tw-passagedata pid="11" name="Suspicious (high morale): Return to confront Odysseus" tags="crevice" position="1900,1100" size="100,100">&quot;Hesperos take the lead, I&#39;m going to see about our master.&quot; Aegeus said.
+
+The rest of the party crept forward but Aegeus followed his instincts. Something was awry, Odysseus had never been a greedy man, but the way he eyed the treasure, not the mention the amulet from Troy.
 
 Aegeus moved slowly towards Odysseus, periodically peering back at the now stupified Cyclops. He peered over Odysseus shoulder into the amulet and through it he could see his men running towards the mouth of the cave and the Cyclops spring into action.
 
 &quot;You bastard.&quot; Aegeus slammed his fist into Odysseus jaw, awakening him and releasing the Cyclops from his sway.
 
-Screams echoed outside the crevice as Aegeus wrestled for control over Odysseus in the darkness, pinning his Commander down he reached for a nearby boulder to bring down on his head but felt his weight shift from under him, losing his breath as he landed on his back. The first blow to his face sent his ears ringing, the second broke his nose and the third knocked half the consciousness out of him.
-
-&quot;It didn&#39;t have to be this way Aegeus.&quot; Odysseus said catching his breath before bringing the rock down on Aegeus&#39;s face again. &quot;You could have had a quick death, an honorable death at the hands of the monster.&quot;
-
-Aegeus lay still and lifeless breathing labouriously as Odysseus scoured the floor of the cave for the amulet which had come loose during the fight. All had fallen quiet outside  the crevice until the Cyclops reappeared at the gap with his axe roaring, &quot;I know you&#39;re still in there, your men have been smashed into pieces, what did you do to me, stay out of my head.&quot;
-
-[[Next|Aegeus seals Odysseus fate]]</tw-passagedata><tw-passagedata pid="12" name="The End" tags="twilight" position="2200,1500" size="100,100">&lt;h3&gt;Thanks for playing!&lt;/h3&gt;
+[[Next|Aegeus fights Odysseus]]
+</tw-passagedata><tw-passagedata pid="12" name="The End" tags="twilight" position="2300,1700" size="100,100">&lt;h3&gt;Thanks for playing!&lt;/h3&gt;
 You received the $ending
 
 Feel free to play once or twice more with different decisions to experience a few more of the stories branches and endings. Just follow this link or open a new tab with the same URL to return to the beginning: https://antonylegall.github.io/
 
 If you would like to see the list of endings and how to reach them, feel free to follow the below link to the cheat sheet.
 
-[[See the ending cheat sheet.]]</tw-passagedata><tw-passagedata pid="13" name="Judicious: Exit the cave." tags="twilight" position="2500,1100" size="100,100">(set: $ending to &quot;&#39;Good ending&#39;, well done, you kept the men alive and acted with integrity and heroism!&quot;)
+[[See the ending cheat sheet.]]</tw-passagedata><tw-passagedata pid="13" name="Judicious: Exit the cave." tags="twilight" position="2400,1000" size="100,100">(set: $ending to &quot;&#39;Good ending&#39;, well done, you kept the men alive and acted with integrity and heroism!&quot;)
 Twilight filled the evening sky as the party left the cave. The soft light painted gentle shadows across the land outlining each tree and hill. Far ahead, towards the coast they spotted their ship still moored on the sand. The men basked in the sublime beauty of the evening, each man grateful for his life and that of the man next to him for the brotherhood they formed here would accompany them for the rest of their journey.
 
 [[The End]]</tw-passagedata><tw-passagedata pid="14" name="Bloodthirsty: Return for vengeance on the sleeping Cyclops" tags="cave" position="2800,900" size="100,100">Odysseus, speaking with hand gestures and whispers spoke to his men with words of courage to steel their nerves for the task ahead, to the left of the cave entrance lay a long wooden beam which the men carved into a point on one end with their swords. Lifting it proved no easy feat as it was heavy enough for four of them.
@@ -416,15 +413,15 @@ Silence reigned. When the dust had settled from the Cyclops furious strikes the 
 &quot;Is this some kind of trap?&quot; Hesperos whispered. As he cast his eyes back he saw Odysseus solid as a statue, entranced, staring into the amulet around his neck.
 (if: $morale &gt; 3)
 [
-&quot;Hesperos take the lead, I&#39;m going to see about our master.&quot; Aegeus said.
-
 (text-colour:green)[[Suspicious (high morale): Return to confront Odysseus]]
+
+[[Faithful: Comfort the men.]]
 ]\
 (else:)
 [
 (text-colour:grey)[Suspicious (morale too low): Return to confront Odysseus]
 
-[[Comfort the men.]]
+[[Faithful: Comfort the men.]]
 ]</tw-passagedata><tw-passagedata pid="27" name="Discard the amulet" tags="crevice" position="2200,500" size="100,100">(set: $amulet to &quot;false&quot;)
 &quot;Ever since I acquired this thing it has been slowly gaining a hold on me, I can barely sleep lest I know it is by my side. Take it from me friend, take it to a dark corner of this blasted cave and be rid of it. We will find another way out of here.&quot; Odysseus hesitated as he took one last look at the amulet, grasping it tight before releasing it to fall into Aegeus&#39;s palm.
 
@@ -456,7 +453,7 @@ The Cyclops turned to face the horrified party, and then the slaughter began. Ae
 
 Within minutes it was over and the cyclops rolled the boulder out of the way, opening the cavern entrance. Pausing solemnly he placed his palms on his temples and pressed both thumbs into his eye, clenching his jaw as they ran deeper and deeper until they reached the socket. Breathing heavily he gouged the rest of his eye out and stood motionless as the blood ran in rivulets down his torso to the floor, mingling with that of the Greeks.
 
-[[Withdraw from the dark pool of the amulet]]</tw-passagedata><tw-passagedata pid="30" name="Mercy: Put him out of his misery" tags="cave" position="2050,1150" size="100,100">Odysseus moved silently towards Hesperos, placing the sacks of riches down he kneeled before his old comerade and cupped the back of his head staring away solemnly.
+[[Withdraw from the dark pool of the amulet]]</tw-passagedata><tw-passagedata pid="30" name="Mercy: Put him out of his misery" tags="cave" position="2050,1300" size="100,100">Odysseus moved silently towards Hesperos, placing the sacks of riches down he kneeled before his old comerade and cupped the back of his head staring away solemnly.
 
 &quot;Look at me, LOOK AT ME *cough*&quot; Blood poured from Hesperos&#39;s mouth. &quot;You coward, you bastard, you won&#39;t even loo-&quot; 
 
@@ -464,7 +461,7 @@ Odysseus forced the dagger into his solar plexus and withdrew it with the cold e
 
 [[Exit the cave]]
 
-</tw-passagedata><tw-passagedata pid="31" name="Exit the cave" tags="twilight" position="2125,1300" size="100,100">(set: $ending to &quot;&#39;Evil&#39; ending, whether out of ignorance or willful negligence you indulged the dark Amulet in its powers hoping it would lead you to salvation, instead it lead you to ruin, your poor leadership and bad deicisons along the way lead the party to ruin and left Odysseus to walk away with the riches and be further corrupted by the amulet.&quot;)
+</tw-passagedata><tw-passagedata pid="31" name="Exit the cave" tags="twilight" position="2200,1500" size="100,100">(set: $ending to &quot;&#39;Evil&#39; ending, whether out of ignorance or willful negligence you indulged the dark Amulet in its powers hoping it would lead you to salvation, instead it lead you to ruin, your poor leadership and bad deicisons along the way lead the party to ruin and left Odysseus to walk away with the riches and be further corrupted by the amulet.&quot;)
 Twilight filled the evening sky as he left the cave. The soft light painted gentle shadows across the land outlining each tree and hill. Far ahead, towards the coast he spotted his ship still moored on the sand. A view that would once fill him with wonder now felt empty. As he walked his legs wobbled until he had to take a rest, the sheep outside eyed him wearily and avoided his path as the winged and hoofed shadow he cast bore no resemblance to that of a man.
 
 [[The End]]</tw-passagedata><tw-passagedata pid="32" name="Heat the beam" tags="cave" position="2800,1050" size="100,100">The beam cracked and popped above the heat, once it was at the point of igniting, glowing terribly incandescent the men readied themselves a short distance from the sleeping Cyclops. His breath smelt putrid as his steady exhale hit their faces.
@@ -575,7 +572,7 @@ As the arrow passed over his shoulder it struck the Cyclops knee causing it to s
 
 Odysseus ran from safety, grabbing Lysander and dragging him inside of the gap narrowly escaping the Cyclops grasp as he slammed into the crevice.
 
-[[Next Chapter|Chapter 3: The Belly of the Whale.]]</tw-passagedata><tw-passagedata pid="45" name="Comfort the men." tags="crevice" position="2200,850" size="100,100">&quot;It&#39;s no trap boy, we&#39;re getting out of here after all.&quot; Aegeus said patting his shoulder. &quot;Worry not for Odysseus men, he will find his way, now lets move before the Cyclops wakes.&quot; Aegeus said.
+[[Next Chapter|Chapter 3: The Belly of the Whale.]]</tw-passagedata><tw-passagedata pid="45" name="Faithful: Comfort the men." tags="crevice" position="2200,850" size="100,100">&quot;It&#39;s no trap boy, we&#39;re getting out of here after all.&quot; Aegeus said patting his shoulder. &quot;Worry not for Odysseus men, he will find his way, now lets move before the Cyclops wakes.&quot; Aegeus said.
 
 [[Leave the crevice]]</tw-passagedata><tw-passagedata pid="46" name="Introduction" tags="" position="900,500" size="100,100">&lt;h3&gt;Introduction&lt;/h3&gt;
 The Odyssey: Choose Your Own Adventure consists of three chapters and a branching storyline with multiple endings depending on the decisions you make along the way. Each decision feeds into the &quot;morale&quot; system which increases or decreases depending on action or dialogue choices--but beware, it&#39;s not always obvious how a decision will pan out as the road to hell can be paved with good intentions.
@@ -623,7 +620,7 @@ Odysseus turned.
 (text-colour:grey)[Heroic (morale too low): Attempt to rescue Hesperos]
 
 [[Cautious: Abandon Hesperos to his fate]]
-]</tw-passagedata><tw-passagedata pid="49" name="See the ending cheat sheet." tags="twilight" position="2200,1700" size="100,100">&lt;h3&gt;Ending Cheat Sheet&lt;/h3&gt;
+]</tw-passagedata><tw-passagedata pid="49" name="See the ending cheat sheet." tags="twilight" position="2300,1900" size="100,100">&lt;h3&gt;Ending Cheat Sheet&lt;/h3&gt;
 
 1. The &quot;Evil&quot; ending: Odysseus, out of greed and demonic possession from the Trojan relic slays his men using the mind-controlled Cyclops. This ending requires you to keep the Amulet and have low morale. &#39;&#39;(Intimidate Aegeus, Interrogate the men and take the wine in chapter 1, Allow Bakchos more wine in chapter 2. Keep the amulet in chapter 3).&#39;&#39;
 
@@ -632,7 +629,7 @@ Odysseus turned.
 3. The &quot;Good ending&quot;: Odysseus and the men all escape with their lives from the Cyclops using teamwork and heroics. This requires you to discard the amulet and have high morale. &#39;&#39;(Don&#39;t intimidate Aegeus or Interrogate the men but Take the wine in chapter 1. Deny Bakchos more wine in Chapter 2. Discard the amulet in chapter 3 and exit the cave without taking vengeance on the Cyclops or take vengeance but rescue Hesperos).&#39;&#39;
 
 4. The &quot;Less-Good ending&quot;: Odysseus and the men escape but with heavy casualties and Hesperos&#39;s death at the end. This requires you to discard the amulet and have low morale. &#39;&#39;(Intimidate Aegeus and Interrogate the men but Take the wine in Chapter 1. Allow Bakchos more wine in Chapter 2. Discard the amulet and return to take vengeance on the Cyclops in Chapter 3).&#39;&#39;
-</tw-passagedata><tw-passagedata pid="50" name="Aegeus seals Odysseus fate" tags="crevice" position="1925,1450" size="100,100">(set: $ending to &quot;&#39;Less-Evil&#39; ending, you indulged the dark Amulet in its powers hoping it would lead you to salvation, instead it lead you to ruin, however your good actions along the way prevented a far worse catastrophe.&quot;)
+</tw-passagedata><tw-passagedata pid="50" name="Aegeus seals Odysseus fate" tags="crevice" position="1900,1500" size="100,100">(set: $ending to &quot;&#39;Less-Evil&#39; ending, you indulged the dark Amulet in its powers hoping it would lead you to salvation, instead it lead you to ruin, however your good actions along the way prevented a far worse catastrophe.&quot;)
 &quot;Od . . . Odysseus&quot; Aegeus muttered, coughing blood.
 
 He didn&#39;t stop his search to reply.
@@ -645,7 +642,7 @@ Terrified amidst the sound of the last vestiges of rock falling away Odysseus pa
 
 He collapsed motionless on the ground as Aegeus choked on his own blood. Burying his head in his arms he clutched his legs and shook violently as the Cyclops roars filled the tiny, hopeless cavern.
 
-[[The End]]</tw-passagedata><tw-passagedata pid="51" name="Next" tags="cave" position="2200,1150" size="100,100">Odysseus turned towards the talking corpse, it was Hesperos, panting and wounded on the ground, his legs broken and twisted.
+[[The End]]</tw-passagedata><tw-passagedata pid="51" name="Next" tags="cave" position="2200,1300" size="100,100">Odysseus turned towards the talking corpse, it was Hesperos, panting and wounded on the ground, his legs broken and twisted.
  
 &quot;Odysseus . . . the Cyclops, he was pacified, and then. . . &quot; Hesperos paused for breath, &quot;we tried to fight, he was too strong, Gods help us Odysseus they&#39;re all gone-&quot; his voice cracked as he spotted Aegeus bunched up against the wall, he began to weep.
 
@@ -657,7 +654,13 @@ Hesperos saw the lifelessness in his Commanders eyes, his hands clutching the ba
 
 [[Callous: Leave Hesperos to slowly perish in the cave|Exit the cave]]
 
-[[Mercy: Put him out of his misery]]</tw-passagedata></tw-storydata>
+[[Mercy: Put him out of his misery]]</tw-passagedata><tw-passagedata pid="52" name="Aegeus fights Odysseus" tags="crevice" position="1900,1300" size="100,100">Screams echoed outside the crevice as Aegeus wrestled for control over Odysseus in the darkness, pinning his Commander down he reached for a nearby boulder to bring down on his head but felt his weight shift from under him, losing his breath as he landed on his back. The first blow to his face sent his ears ringing, the second broke his nose and the third knocked half the consciousness out of him.
+
+&quot;It didn&#39;t have to be this way Aegeus.&quot; Odysseus said catching his breath before bringing the rock down on Aegeus&#39;s face again. &quot;You could have had a quick death, an honorable death at the hands of the monster.&quot;
+
+Aegeus lay still and lifeless breathing labouriously as Odysseus scoured the floor of the cave for the amulet which had come loose during the fight. All had fallen quiet outside  the crevice until the Cyclops reappeared at the gap with his axe roaring, &quot;I know you&#39;re still in there, your men have been smashed into pieces, what did you do to me, stay out of my head.&quot;
+
+[[Next|Aegeus seals Odysseus fate]]</tw-passagedata></tw-storydata>
 <script title="Twine engine code" data-main="harlowe">(function(){"use strict";
 var require,define;!function(){var e={},r={};require=function(i){var n=e[i];return n&&(r[i]=n[1].apply(void 0,n[0].map(require)),e[i]=void 0),r[i]},(define=function(r,i,n){if("function"==typeof r)return r();e[r]=[i,n]}).amd=!0}();/*!
  * https://github.com/paulmillr/es6-shim
